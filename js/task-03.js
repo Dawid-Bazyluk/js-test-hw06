@@ -21,4 +21,5 @@ const photos = images
       `<li class="image"><img src="${image.url}" alt="${image.alt}" height="280" width="360"></li>`
   )
   .join("");
-console.log(images);
+
+listOfImg.insertAdjacentElement("afterbegin", photos);
