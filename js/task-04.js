@@ -3,9 +3,16 @@ const btnPlus = document.querySelector('button[data-action="increment"]');
 const btnMinus = document.querySelector('button[data-action="decrement"]');
 const value = document.querySelector("#value");
 
-const increase = () => {
+const increment = () => {
   counterValue += 1;
   value.textContent = counterValue;
 };
 
-btnPlus.addEventListener("click", increase);
+const decrement = () => {
+  counterValue -= 1;
+  value.textContent = counterValue;
+};
+
+btnPlus.addEventListener("click", increment);
+
+btnMinus.addEventListener("click", decrement);
