@@ -28,6 +28,10 @@ button {
   gap: 30px;
   list-style: none;
 }
+.image img {
+  display: block;
+  border-radius: 20px;
+}
 
 .image {
   border-radius: 30px;
