@@ -15,8 +15,10 @@ const images = [
 
 const listOfImg = document.querySelector(".gallery");
 
-const photos = images.map(
-  (image) =>
-    `<li class="image"><img src="${image.url}" alt="${image.alt}" height="280" width="360"></li>`
-);
-console.log(images)
+const photos = images
+  .map(
+    (image) =>
+      `<li class="image"><img src="${image.url}" alt="${image.alt}" height="280" width="360"></li>`
+  )
+  .join("");
+console.log(images);
