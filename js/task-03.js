@@ -20,8 +20,8 @@ const photos = images
     (image) =>
       `<li class="image"><img src="${image.url}" alt="${image.alt}" height="280" width="360"></li>`
   )
-  .join(" ");
+  .join("");
 
 console.log(photos);
 
-listOfImg.insertAdjacentElement("afterbegin", photos);
+listOfImg.insertAdjacentHTML("afterbegin", photos);
