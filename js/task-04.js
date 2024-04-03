@@ -3,7 +3,7 @@ const btnPlus = document.querySelector('button[data-action="increment"]');
 const btnMinus = document.querySelector('button[data-action="decrement"]');
 const value = document.querySelector("#value");
 
-increase = () => {
+const increase = () => {
   counterValue += 1;
   value.value = counterValue;
 };
