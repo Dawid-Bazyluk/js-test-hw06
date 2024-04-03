@@ -5,7 +5,7 @@ const value = document.querySelector("#value");
 
 const increase = () => {
   counterValue += 1;
-  value.value = counterValue;
+  value.textContent = counterValue;
 };
 
 btnPlus.addEventListener("click", increase);
