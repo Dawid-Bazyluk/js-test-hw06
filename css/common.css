@@ -28,3 +28,8 @@ button {
   gap: 30px;
   list-style: none;
 }
+
+.image(
+  border-radius: 30px;
+  box-shadow: 15px 20px 40px 0px rgba(0, 0, 0, 0.6);
+);
