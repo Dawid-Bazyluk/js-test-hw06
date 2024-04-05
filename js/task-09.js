@@ -10,3 +10,7 @@ const btnColorChange = document.querySelector("change-color");
 const bodyColor = "#fafafa";
 backgroundColor.style.backgroundColor = bodyColor;
 spanColor.textContent = bodyColor;
+
+console.log(backgroundColor);
+console.log(spanColor);
+console.log(btnColorChange);
