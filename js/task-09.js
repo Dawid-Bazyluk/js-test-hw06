@@ -11,6 +11,12 @@ const bodyColor = "#fafafa";
 backgroundColor.style.backgroundColor = bodyColor;
 spanColor.textContent = bodyColor;
 
+const changingColor = (e) => {
+  getRandomHexColor
+    
+};
+
+btnColorChange.addEventListener("click", changingColor)
 console.log(backgroundColor);
 console.log(spanColor);
 console.log(btnColorChange);
